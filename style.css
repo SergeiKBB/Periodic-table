@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+}
+body {
+    margin: 8px;
+}
+table {
+    border-collapse: collapse;
+    border: 1px solid;
+}
+td {
+    background-color: #cccccc;
+}
+tr td{
+    border: 1px solid;
+}
+.one-two-width {
+    width: 35px;
+}
+.width-td-element td {
+    width: 70px;
+}
+.text-align-justify {
+    text-align: center;
+}
+.letter-spacing {
+    letter-spacing: 10px;
+}
+.letter-upper {
+    text-transform: uppercase;
+}
+.bold {
+    font-weight: bold;
+}
+caption {
+    font-size: 25px;
+}
+.span-left {
+    float: left;
+    margin-left: 5px;
+}
+.span-right{
+    float: right;
+    margin-right: 5px;
+}
+.text-vertical {
+    -webkit-transform: rotate(270deg);
+    font-size: 8.5px;
+    padding: 0;
+}
+.td-height {
+    height: 40px;
+    vertical-align: top;
+}
+.td-height h3,h4, p {
+    display: inline-block;
+}
+.left-alignment h3 {
+        
+}
+.vertical-middle {
+    vertical-align: middle;
+}
+.size-name-element{
+  font-size: 11px;
+}
+.size-value-element {
+    font-size: 8.5px;
+}
+.line-height {
+    line-height: 0.7;
+}
+.number-element {
+    float: right;
+    margin-right: 5px;
+    margin-top: 3px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.td-element {
+    padding-left: 3px;
+    background-color: #fa6997;
+}

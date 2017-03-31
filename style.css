@@ -1,5 +1,7 @@
 * {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 body {
     margin: 8px;
@@ -16,6 +18,10 @@ tr td{
 }
 .one-two-width {
     width: 35px;
+}
+.size-survivors-td td{
+    width: 66px;
+    
 }
 .width-td-element td {
     width: 70px;
@@ -44,12 +50,15 @@ caption {
     margin-right: 5px;
 }
 .text-vertical {
-    -webkit-transform: rotate(270deg);
-    font-size: 8.5px;
+    transform: rotate(270deg);
+    font-size: 8px;
     padding: 0;
+    width: 50px;
+    position: absolute;
+    bottom: 17px;
 }
 .td-height {
-    height: 40px;
+    height: 51px;
     vertical-align: top;
 }
 .td-height h3,h4, p {
@@ -60,9 +69,11 @@ caption {
 }
 .vertical-middle {
     vertical-align: middle;
+    text-align: center;
 }
 .size-name-element{
-  font-size: 11px;
+  font-size: 9px;
+    text-transform: uppercase;
 }
 .size-value-element {
     font-size: 8.5px;
@@ -77,8 +88,27 @@ caption {
     font-weight: bold;
     font-size: 12px;
 }
-
-.td-element {
+.td-element-pink {
     padding-left: 3px;
     background-color: #fa6997;
+}
+.td-element-yellow {
+    padding-left: 3px;
+    background-color: #feff04;
+}
+.td-element-blue {
+    padding-left: 3px;
+    padding-right: 3px;
+    background-color: #2d99fb;
+    text-align: right;
+}
+.number-element-blue {
+    float: left;
+    margin-right: 5px;
+    margin-top: 3px;
+    font-weight: bold;
+    font-size: 12px;
+}
+td-element-blue h3{
+    float: right;
 }

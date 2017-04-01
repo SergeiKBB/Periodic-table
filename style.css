@@ -72,8 +72,10 @@ caption {
     text-align: center;
 }
 .size-name-element{
-  font-size: 9px;
+    font-size: 9px;
     text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: bold;
 }
 .size-value-element {
     font-size: 8.5px;
@@ -111,4 +113,15 @@ caption {
 }
 td-element-blue h3{
     float: right;
+}
+.td-element-green  span{
+    font-size: 8.5px;
+    text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: bold;
+}
+.td-element-green {
+    text-align: center;
+    padding-top: 5px;
+    background-color: #94ce00;
 }

@@ -104,15 +104,15 @@ caption {
     background-color: #2d99fb;
     text-align: right;
 }
+td-element-blue h3{
+    float: right;
+}
 .number-element-blue {
     float: left;
     margin-right: 5px;
     margin-top: 3px;
     font-weight: bold;
     font-size: 12px;
-}
-td-element-blue h3{
-    float: right;
 }
 .td-element-green  span{
     font-size: 8.5px;
@@ -124,4 +124,60 @@ td-element-blue h3{
     text-align: center;
     padding-top: 5px;
     background-color: #94ce00;
+}
+.td-element-greenbla {
+    text-align: center;
+    padding-top: 5px;
+    background-color: #389a07;
+}
+.oksid {
+    text-transform: uppercase;
+    font-size: 11px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-family: sans-serif;    
+}
+.oksid-center {
+    text-align: center;
+}
+.letter-spacing-oksid {
+    letter-spacing: 20px;
+}
+.letter-upper-oksid {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 20px;
+    border: 0;
+}
+.td-element-greenb {
+    padding-left: 3px;
+    padding-right: 3px;
+    background-color: #96c709;
+    text-align: right;
+}
+td-element-greenb h3{
+    float: right;
+}
+.number-element-greenb {
+    float: left;
+    margin-right: 5px;
+    margin-top: 3px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.caption-two-table {
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.td-element-greenblaa {
+    padding-left: 3px;
+    padding-right: 3px;
+    background-color: #389a07;
+    text-align: right;
+}
+td-element-greenblaa h3{
+    float: right;
 }
